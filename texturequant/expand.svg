@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>expand</title>
+    <g id="expand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <line x1="3" y1="3" x2="3" y2="11" id="Line" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="3" y1="23" x2="3" y2="31" id="Line" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="31" y1="23" x2="31" y2="31" id="Line" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="31" y1="3" x2="31" y2="11" id="Line" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="31" y1="3" x2="23" y2="3" id="Line" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="11" y1="3" x2="3" y2="3" id="Line-Copy-2" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="11" y1="31" x2="3" y2="31" id="Line-Copy-3" stroke="#3125AE" stroke-width="3"></line>
+        <line x1="31" y1="31" x2="23" y2="31" id="Line-Copy-4" stroke="#3125AE" stroke-width="3"></line>
+    </g>
+</svg>

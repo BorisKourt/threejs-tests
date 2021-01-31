@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="34px" viewBox="0 0 68 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>backarrlong</title>
+    <g id="backarrlong" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <line x1="66" y1="17" x2="2" y2="17" id="Line" stroke="#3125AE" stroke-width="3"></line>
+        <polyline id="Line-2" stroke="#3125AE" stroke-width="3" stroke-linejoin="round" transform="translate(10.000000, 17.000000) rotate(-270.000000) translate(-10.000000, -17.000000) " points="-5 9 10 25 25 9"></polyline>
+    </g>
+</svg>

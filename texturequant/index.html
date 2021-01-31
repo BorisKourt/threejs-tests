@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>sitevisits</title>
+    <link href='normalize.css' rel='stylesheet' type='text/css'/>
+    <link href='style.css' rel='stylesheet' type='text/css'/>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      const consoleWarn = window.console.warn;
+      window.console.warn = function() {
+        // filter "image is not power of two" and "image is too big" warnings from three.js
+        if (typeof arguments[0] === 'string' &&
+                (arguments[0].includes('image is not power of two') || arguments[0].includes('image is too big'))) {
+          // log it to console without second argument, which contains reference to `image`
+          consoleWarn.call(null, arguments[0]);
+        } else {
+          // pass other warnings without changes
+          consoleWarn.apply(null, arguments);
+        }
+      };
+    </script>
+    <script src='webxr-polyfill.js'></script>
+    <script type="text/javascript" src="bundle_sitevisits.js"></script>
+    <script src="js/compiled/app.js"></script>
+  </body>
+</html>
