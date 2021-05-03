@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'Konstant Grotesk';
-  src: url('../fonts/konstantgrotesk-webfont.woff2') format('woff2'),
-  url('../fonts/konstantgrotesk-webfont.woff') format('woff');
+  src: url('/threejs-tests/texturequant/fonts/konstantgrotesk-webfont.woff2') format('woff2'),
+  url('/threejs-tests/texturequant/fonts/konstantgrotesk-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,8 +13,8 @@
   font-style: normal;
   font-weight: 400;
   src: local('Libre Franklin'), local('LibreFranklin-Regular'),
-  url('../fonts/libre-franklin-v5-latin-regular.woff2') format('woff2'),
-  url('../fonts/libre-franklin-v5-latin-regular.woff') format('woff');
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-regular.woff2') format('woff2'),
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-regular.woff') format('woff');
 }
 
 @font-face {
@@ -22,8 +22,8 @@
   font-style: italic;
   font-weight: 400;
   src: local('Libre Franklin Italic'), local('LibreFranklin-Italic'),
-  url('../fonts/libre-franklin-v5-latin-italic.woff2') format('woff2'),
-  url('../fonts/libre-franklin-v5-latin-italic.woff') format('woff');
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-italic.woff2') format('woff2'),
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-italic.woff') format('woff');
 }
 
 @font-face {
@@ -31,8 +31,8 @@
   font-style: normal;
   font-weight: 700;
   src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'),
-  url('../fonts/libre-franklin-v5-latin-700.woff2') format('woff2'),
-  url('../fonts/libre-franklin-v5-latin-700.woff') format('woff');
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-700.woff2') format('woff2'),
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-700.woff') format('woff');
 }
 
 @font-face {
@@ -40,8 +40,8 @@
   font-style: italic;
   font-weight: 700;
   src: local('Libre Franklin Bold Italic'), local('LibreFranklin-BoldItalic'),
-  url('../fonts/libre-franklin-v5-latin-700italic.woff2') format('woff2'),
-  url('../fonts/libre-franklin-v5-latin-700italic.woff') format('woff');
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-700italic.woff2') format('woff2'),
+  url('/threejs-tests/texturequant/fonts/libre-franklin-v5-latin-700italic.woff') format('woff');
 }
 
 html {
@@ -85,7 +85,7 @@ p:first-child {
   top: 0;
   left: 0;
   overflow: hidden;
-  background: center top url('/bg.png') no-repeat;
+  background: center top url('/threejs-tests/texturequant/bg.png') no-repeat;
   background-size: cover;
 }
 
@@ -164,7 +164,7 @@ p:first-child {
   bottom: 0;
   right: 0;
   content: "";
-  background: center top url('/bg.png') no-repeat;
+  background: center top url('/threejs-tests/texturequant/bg.png') no-repeat;
   background-size: cover;
   z-index: 1;
   opacity: 0.2;
